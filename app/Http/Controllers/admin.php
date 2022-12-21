@@ -25,12 +25,12 @@ class admin extends Controller
        $output ->projectprogress = $req->input('projectprogress');
        $output ->projectstatus = $req->input('projectstatus');
        $output->save();
-       return view('admin.assignproject');
+       return redirect('projectdetails');
     }
 
     function display()
     {
-         $output = project::all();
+         $output = project::paginate(2);
          return view('admin.displayproject',['output'=> $output]);
     }
 
