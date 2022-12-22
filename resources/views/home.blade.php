@@ -54,7 +54,7 @@ https://templatemo.com/tm-568-digimedia
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
-                    <h6>FYP Management System</h6>
+                    <!-- <h6>FYP Management System</h6> -->
                     
             <!-- ***** Logo Start ***** -->
             <!-- <a href="index.html" class="logo">

@@ -10,7 +10,7 @@ class supervisor extends Controller
 {
     function display()
     {
-         $output = project::all();
+         $output = project::paginate(2);
          return view('user.displaydata',['output'=> $output]);
     }
 
